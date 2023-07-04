@@ -1,197 +1,438 @@
-.first {
-  height: 100%;
-  width: 60%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(135, 213, 235, 0.332);
-  border: 4px solid rgb(161, 178, 184);
+#contain{
+ width: 900px;
+ background-color: wheat;
+ height: 700px;
+margin: 10px auto;
+border: 6px solid grey;
+display: grid;
+grid-template-columns:240px auto 350px ;
+grid-template-rows: auto ;
+grid-template-areas: "first first second";
 }
-
-.second {
-  position: relative;
-  left: 60%;
-  background-color: white;
-  height: 100%;
-  width: 40%;
+#first{
+ background-color: #f0f8ff;
+ grid-area: first;
 }
+#first h1{
+ color: skyblue;
+ padding-left:15px;
+}
+#first h6{
+ padding-left:16px;
+ margin-top: -20px;
+ font-size:10px;
+}
+#first h2{
+ padding-left: 15px;
+ color: skyblue;
+ margin-top: -10px;
+}
+#second{
+ background-color: whitesmoke;
+ grid-area: second;
+ display: grid;
+ grid-template-rows: 400px 50px 50px;
+}
+#main{
+ width: 300px;
+ height: 90px;
+ display: grid;
+ grid-template-columns: 75px 75px 75px 75px 75px 75px;
+ margin: 0 20px 0 20px;
+ grid-gap: 10px;
+ border-radius: 5px;
+}
+#one{
+ background-color:white;
+ border-radius: 5px;
+}
+#one p{
+ margin:60% 0 0 30%;
+}
+#two{
+background-color: white;
+border-radius: 5px;
+}
+#two p{
+margin:60% 0 0 30%;
+}
+#three{
+background-color: white;
+border-radius: 5px;
+}
+#three p{
+ margin:60% 0 0 30%;
+}
+#fore{
+background-color: #525FE1;
+border-radius: 5px;
+}
+#fore p{
+ margin:60% 0 0 30%;
+}
+#five{
+background-color: white;
+border-radius: 5px;
+}
+#five p{
+ margin:60% 0 0 30%;
+}
+#six{
+background-color: white;
+border-radius: 5px;
+}
+#six p{
+ margin:60% 0 0 30%;
+}
+#submain{
+ width: 500px;
+ height: 430px ;
 
-.third {
+ margin: 20px;
+ border-radius: 10px;
+ display: grid;
+ grid-template-columns: 250px 250px;
+ grid-gap: 10px;
+}
+#main1{
+ border-radius: 5px;
+ grid-template-rows: 210px 228px;
+ grid-gap: 5px;
+ display: grid;
+}
+#main2{
+ background-color: white;
+ border-radius: 5px;
+}
+#index1{
+ background-color: white;
+ border-radius: 5px;
+}
+#index2{
+background-color: white;
+border-radius: 5px;
+}
+#index2 p{
+ margin: 9% 0 0 10%;
+ font-family:initial;
+}
+#index1 p
+{
+padding-left: 15px;
+}
+#index1 h3{
+
+ color: green;
+ margin: 10% 0 5% 20%;
+ font-size: 150%;
+}
+#index1 h4{
+ margin: 1% 0 0 20%;
+ font-size: 70%;
+}
+#index{
+ height:70px;
+ width: 220px;
+ background-color: whitesmoke;
+ margin: 10% auto 0;
+ display: grid;
+ grid-template-columns: 33px 33px 33px 33px 33px 33px;
+ grid-gap: 5px;
+}
+#a{
+ background-color: #CFFDE1;
+ border-radius: 5px;
+}
+#a h{
+position:relative;
+top: 40%;left: 10%;
+width: 100%;
+font-size: 80%;
+color:green;
+}
+#b{
+ background-color: #CFFDE1;
+ border-radius: 5px;
+}
+#b h{
+ position:relative;
+ top: 40%;left:5%;
+ width: 100%;
+ font-size: 80%;
+ background-color: lightgreen;
+}
+#c{
+ background-color: #CFFDE1;
+ border-radius: 5px;
+}
+#c h{
+ position:relative;
+ top: 40%;left: 10%;
+ width: 100%;
+ font-size: 80%;
+ background-color: lightgreen;
+}
+#d{
+ background-color: #CFFDE1;
+ border-radius: 5px;
+}
+#d h{
+ position:relative;
+ top: 40%;left: 10%;
+ width: 100%;
+ font-size: 80%;
+ background-color: lightgreen;
+}
+#e{
+ background-color: #CFFDE1;
+ border-radius: 5px;
+}
+#e h{
+ position:relative;
+ top: 40%;left: 10%;
+ width: 100%;
+ font-size: 80%;
+ background-color: lightgreen;
+}
+#f{
+ background-color: #CFFDE1;
+ border-radius: 5px;
+}
+#f h{
+ position:relative;
+ top: 40%;left: 10%;
+ width: 100%;
+ font-size: 80%;
+ background-color: lightgreen;
+}
+#sideber{
+ width: 230px;
+ height:350px;
+ margin: -70px 10px 20px 10px;
+ display: grid;
+ grid-template-rows:110px 110px 110px ;
+ grid-gap: 20px;
+}
+#sideber h{
+ font-family: 'Courier New', Courier, monospace;
+position: relative;
+top: 80%; 
+}
+#index3{
+ background-color:#fc9d54;
+ border-radius: 5px;
+}
+#index3 p{
+position: relative;
+left: 12%;bottom: 10%;
+}
+#index3 h4{
+ position: relative;
+ left: 20%;
+ font-size: 80%;
+}
+#index3 h6{
+ position: relative;
+ left: 12%;
+ top: 10%;
+ font-size: 110%;
+}
+#index3 h5{
+ position: relative;
+ left: 60%;
+ bottom:70% ;
+}
+#index3 h3{
+ position: relative;
+ left: 60%;
+ bottom:83% ;
+}
+#index4{
+ background-color: #fc9d54;
+ border-radius: 5px;
+}
+#index4 p{
+ position: relative;
+ left: 12%;bottom: 10%;
+}
+#index4 h4{
+ position: relative;
+ left: 20%;
+ font-size: 80%;
+}
+#index4 h6{
+ position: relative;
+ left: 12%;
+ top: 10%;
+ font-size: 110%;
+}
+#index4 h5{
+ position: relative;
+ left: 60%;
+ bottom:70% ;
+}
+#index4 h3{
+ position: relative;
+ left: 60%;
+ bottom:83% ;
+}
+#index5{
+background-color: white;
+/* border: 1px solid black; */
+border-radius: 5px;
+height: 110px;
+}
+.all{
+ display: grid;
+grid-gap: 8%;
+height: 110px;
+/* border: 1px solid red; */
+margin: 5% 0 5% 10%;
+grid-template-areas: "one fth sth"
+                      "two fve eth"
+                      "trd six nth";
+}
+.one{
+ grid-area: one;
+}
+.two{
+ grid-area:two;
+}
+.trd{
+ grid-area:trd;
+}
+.fth{
+ grid-area:fth;
+}
+.fve{
+ grid-area:fve;
+}
+.six{
+ grid-area:six;
+}
+.sth{
+ grid-area:sth;
+}
+.eth{
+ grid-area:eth;
+}
+.nth{
+ grid-area:nth;
+}
+#rightsideber{
+width: 300px;
+height: 600px;
+margin:80px 20px 0 20px ;
+display: grid;
+grid-gap: 20px;
+grid-template-rows: 350px 80px 70px;
+}
+#sub1{
+ background-color: rgba(0, 153, 255, 0.716);
+border-radius: 5px;
+}
+#sub1 h1{
+ position: relative;
+ left: 10%;
+ font-size: 150%;
+ color: white;
+}
+#sub1 h2{
+ position: relative;
+ left: 35%;
+ top: 20%;
+ font-size: 90%;
+ color: white;
+}
+#sub1 h3{
+ position: relative;
+ left: 35%;
+ top: -5%;
+ font-size: 450%;
+ color: white;
+}
+#sub1 h4{
+ position: relative;
+ left: 43%;
+ font-size: 130%;
+ bottom:27%;
+ color: white;
+}
+#sub1 h5{
+ position: relative;
+ left: 35%;
+ font-size: 100%;
+ bottom:30%;
+ color: white;
+}
+#sub1 h6{
+ position: relative;
+ left: 36%;
+ font-size: 100%;
+ bottom:40%;
+ color: white;
+}
+#sub2{
+background-color:#EF7AA6;
+border-radius: 5px;
+}
+#sub2 h1{
+ font-size: 90%;
+ position: relative;
+ left: 10%;
+}
+#sub2 h2{
+ font-size: 90%;
+ position: relative;
+ left: 10%;
+}
+#sub2 h3{
+ font-size: 90%;
+ position: relative;
+ left: 80%;
+ bottom: 75%;
+}
+#sub2 h4{
+ font-size: 130%;
+ position: relative;
+ left: 83%;
+ bottom: 100%;
+}
+#sub3{
+background-color:#F3B76E;
+border-radius: 5px;
+position: relative;
+top: 60%;
+margin: 0 0 0 10%;
+z-index: 1;
+}
+#sub3 h1{
+font-size: 90%;
+position: relative;
+left: 10%;
+}
+#sub3 h2{
+ font-size: 90%;
+ position: relative;
+ left: 10%;
+}
+#sub3 h3{
+ font-size: 90%;
+ position: relative;
+ left: 85%;
+ bottom:85%;
+}
+#sub3 h4{
+  font-size: 130%;
   position: relative;
-  top: 10%;
-  left: 10%;
-  height: 55%;
-  width: 80%;
-  background-color: rgba(0, 153, 255, 0.716);
+  left: 85%;
+  bottom: 120%;
+}
+#sub4{
+ background-color: rgba(255, 230, 0, 0.201);
+  position: relative;
+  bottom: 160%;
+  height: 190%;
   border-radius: 5%;
-}
-
-.forth {
-  position: relative;
-  left: 10%;
-  top: 15%;
-  height: 10%;
-  width: 80%;
-  background-color: brown;
-  border-radius: 5px;
-}
-
-.five {
-  position: relative;
-  left: 10%;
-  top: 23%;
-  background-color: rgba(255, 183, 0, 0.79);
-  height: 10%;
-  width: 80%;
-  border-radius: 5px;
-  box-shadow: 10%;
-}
-
-.sixth {
-  position: relative;
-  top: 10%;
-  left: 6%;
-  width: 80%;
-  height: 10%;
-  background-color: rgba(255, 230, 0, 0.201);
-  border: 1px dotted;
-  border-radius: 5%;
-  overflow: hidden;
-}
-
-.sth {
-  position: relative;
-  left: 3%;
-  bottom: 80%;
-  background-color: whitesmoke;
-  height: 12%;
-  width: 8%;
-  border-radius: 5px;
-}
-
-.eth {
-  position: relative;
-  left: 12%;
-  bottom: 92%;
-  background-color: whitesmoke;
-  height: 12%;
-  width: 8%;
-  border-radius: 5px;
-}
-
-.nth {
-  position: absolute;
-  left: 21%;
-  bottom: 68%;
-  background-color: whitesmoke;
-  height: 12%;
-  width: 8%;
-  border-radius: 5px;
-}
-
-.tth {
-  position: absolute;
-  left: 30%;
-  bottom: 68%;
-  background-color: blue;
-  height: 12%;
-  width: 8%;
-  border-radius: 5px;
-}
-
-.elth {
-  position: absolute;
-  left: 39%;
-  bottom: 68%;
-  background-color: whitesmoke;
-  height: 12%;
-  width: 8%;
-  border-radius: 5px;
-}
-
-.twth {
-  position: absolute;
-  left: 48%;
-  bottom: 68%;
-  background-color: whitesmoke;
-  height: 12%;
-  width: 8%;
-  border-radius: 5px;
-}
-
-.thirteenth {
-  position: relative;
-  left: 30%;
-  bottom: 90%;
-  background-color: whitesmoke;
-  height: 65%;
-  width: 26%;
-  border-radius: 10px;
-}
-
-.one {
-  position: absolute;
-  left: 10%;
-  bottom: 65%;
-  background-color: rgba(255, 102, 0, 0.653);
-  height: 20%;
-  width: 84%;
-  border-radius: 5px;
-}
-
-.two {
-  position: absolute;
-  left: 10%;
-  bottom: 40%;
-  background-color: rgba(255, 102, 0, 0.653);
-  height: 20%;
-  width: 84%;
-  border-radius: 5px;
-}
-
-.three {
-  position: absolute;
-  left: 10%;
-  bottom: 5%;
-  background-color: white;
-  height: 30%;
-  width: 84%;
-  border-radius: 5px;
-  border: 1px solid black;
-}
-
-.upper {
-  position: absolute;
-  left: 3%;
-  top: 34%;
-  background-color: whitesmoke;
-  height: 32%;
-  width: 25%;
-  border-radius: 10px;
-}
-
-.lower {
-  position: absolute;
-  left: 3%;
-  top: 67%;
-  background-color: whitesmoke;
-  height: 32%;
-  width: 25%;
-  border-radius: 10px;
-}
-
-.side {
-  position: relative;
-  left: 0%;
-  bottom: 169%;
-  height: 46%;
-  width: 5%;
-  background-color: black;
-  border-radius: 0px 10px 10px 0px;
-}
-
-.ok {
-  height: 1px;
-  width: 9px;
+  margin: 0 5% 0 5%;
 }
